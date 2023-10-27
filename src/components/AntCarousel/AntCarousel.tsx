@@ -1,12 +1,12 @@
 import React from "react";
 import { Carousel } from 'antd';
 
-export type CarouselProps ={
-    children: React.ReactNode
+export type AntCarouselProps ={
+    children: React.ReactNode;
 }
 
-export function CarouselBox({children}:CarouselProps) {
+export function AntCarousel({children}:AntCarouselProps) {
     return (
-        <Carousel>{children}</Carousel>
+        <Carousel autoplay={true}>{children}</Carousel>
     );
 }
