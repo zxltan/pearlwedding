@@ -10,7 +10,7 @@ import {MapBox} from "@/components/MapBox/MapBox";
 export default function Home() {
   return (
       <>
-          <Header>СВАДЕБНЫЙ САЛОН ЖЕМЧУЖЕНА</Header>
+          <Header>СВАДЕБНЫЙ САЛОН ЖЕМЧУЖИНА</Header>
           <main className="flex-1">
               <AntCarousel><img className="h-auto bg-blue-500" src="/slider%20photos/5.jpg"/> <img  className="h-auto bg-blue-500" src="/slider%20photos/2.jpg"/> <img  className="h-auto bg-blue-500" src="/slider%20photos/1.jpg"/> <img  className="h-auto bg-blue-500" src="/slider%20photos/4.jpg"/> <img className="h-auto bg-blue-500" src="/slider%20photos/6.jpg"/></AntCarousel>
           </main>
@@ -30,7 +30,7 @@ export default function Home() {
           <main className="flex items-center justify-center bg-gray-100 p-24">
               <MapBox/>
           </main>
-          <Footer>Свадебный салон Жемчужена</Footer>
+          <Footer>Свадебный салон Жемчужина</Footer>
       </>
   )
 }

@@ -7,7 +7,7 @@ export function ServicesBox() {
                 <div className="flex flex-col items-center justify-center gap-4 text-center">
                     <img className="w-36 h-36 mb-2" src="/services%20icons/1.png" alt="Услуга 1" />
                     <h3 className="text-xl font-extra font-bold">Бесплатная примерка</h3>
-                    <p className="text-gray-700">Опытные консультаты подберут нужную модель по фигуре и концепции торжества</p>
+                    <p className="text-gray-700">Опытные консультанты подберут нужную модель по фигуре и концепции торжества</p>
                 </div>
             </div>
 
